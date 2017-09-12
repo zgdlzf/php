@@ -38,3 +38,15 @@ static（静态）
     myTest();
     echo $y;
 ?>
+## php echo和print语句
+echo能够输入一个以上字符串
+print只能输出一个字符串，并始终返回1
+<?php
+    $txt1="learn php";
+    $txt2="w3shool.com.cn";
+    $txt3=array("Volvo","BMW");
+    echo $txt1;
+    echo "<br>";
+    echo "Study PHP at $txt2";
+    echo "My car is a {$cars[0]}";
+?>
