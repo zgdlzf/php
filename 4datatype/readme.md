@@ -30,3 +30,10 @@ asort()根据值，以升序对关联数组进行排序
 ksort()根据键，以升序对关联组数进行排序
 arsort()根据值，以降序对关联数组进行排序
 krsort()根据键，以降序对关联组数进行排序
+## 超全局变量
+php定义了很多超全局变量，如下
+$GLOBALS        $_SERVER
+$_REQUEST       $_POST
+$_GET           $_FILES
+$_ENV           $_COOKIE
+$_SESSION
